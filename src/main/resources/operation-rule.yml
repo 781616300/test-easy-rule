@@ -1,0 +1,9 @@
+name: "operation rule"
+description: "这是规则的描述"
+condition: "operation == true"
+actions:
+  - "System.out.println(\"进行了相关的操作\");"
+  - '       import org.example.rules.AgeRule;
+            AgeRule ageRule = new AgeRule();
+            int priority = ageRule.getPriority();
+            System.out.println(priority);'
